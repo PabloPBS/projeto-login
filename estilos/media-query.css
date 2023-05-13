@@ -8,7 +8,7 @@
 
     section#login {
         width: 80vw;
-        height: 320px;
+        height: 340px;
     }
 
     section#login > div#imagem {
@@ -25,6 +25,7 @@
     div#formulario > p {
         font-size: 1.2em;
         text-align: justify;
+        margin: 20px 0px;
     }
 
     label {
@@ -51,7 +52,7 @@
 
     section#login {
         width: 950px;
-        height: 370px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -65,10 +66,14 @@
         width: 50%;
     }
 
+    div.campo > input {
+        transform: translateY(-11px);
+    }
+
     div#formulario > p {
         font-size: 1.5em;
         text-align: justify;
-        margin: 20px 0px;
+        margin: 10px 0px;
     }
 
     label {
