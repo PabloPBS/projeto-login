@@ -28,6 +28,17 @@
     label {
         font-size: 1em;
     }
+
+    form > input[type=submit] {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    form > a.botao {
+        max-width: 300px;
+        margin: auto;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -57,5 +68,16 @@
 
     label {
         font-size: 1.4em;
+    }
+
+    form > input[type=submit] {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    form > a.botao {
+        max-width: 300px;
+        margin: auto;
+        margin-top: 5px;
     }
 }
